@@ -19,16 +19,13 @@ def calcular_jornadas(matriz):
     
     for recurso in matriz:
         nombre = recurso[0]
-
         # Sumar las horas de los índices 1 al 5 (Lunes a Viernes)
         total_horas = sum(recurso[1:])
-        
         # Lógica de negocio para clasificar
         if total_horas > 40:
             clasificacion = "Sobretiempo"
         else:
             clasificacion = "Horario Estandar"
-            
         print(f"{nombre:<10} | {total_horas:<12} | {clasificacion}")
 
 # Ejecución de la función
