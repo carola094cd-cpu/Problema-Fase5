@@ -1,5 +1,5 @@
 #Nombre: Diana Carolina Díaz GarcÍa
-#Grupo: 702
+#Grupo: 467
 #Programa: Ingeniería de Sistemas
 #Codigo fuente: Autoría propia
 #Problema elegido: 5
